@@ -1,0 +1,70 @@
+html{
+  color:#000f1d;
+  background-color: rgb(236, 236, 236);
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+img{
+  float: left;
+  width: 100px; 
+  height: 130px; 
+  padding-right: 20px;
+}
+
+h1,h2,h3{
+  text-align: left;
+}
+
+p{
+  padding:0ch;
+  margin: 0;
+}
+
+h*{
+  color: rgb(0, 0, 0);
+}
+h1{
+  padding-top:2ch;
+  margin-top: 2ch;
+}
+
+h2{
+  padding-top:2ch;
+  margin-top: 2ch;
+}
+
+h3{
+  padding-top: 2ch;
+  margin: 0;
+}
+
+h4{
+  padding: 0;
+  margin: 0;
+}
+
+.topico{
+  /*background-color: rgb(115, 188, 252);*/
+  letter-spacing: .2rem;
+  text-decoration: underline;
+  color: rgb(50, 100, 200);
+}
+
+.sub-topico{
+  color: rgb(50, 100, 200);
+}
+
+body{
+  background-image: url("./logo webapp.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 20%;
+}
+
+.i{
+  font-style: italic;
+}
+
+.destaque{
+  color: rgb(168, 0, 0);
+} 
