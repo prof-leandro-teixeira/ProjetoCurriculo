@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Contato</title>
+</head>
+
+<body>
+    <form>
+        Entre com seus dados para contato
+        <br><br>
+        <input type="text" name="nome" placeholder="Entre com seu nome" />
+        <br><br>
+        <input type="radio" name="Sexo" value="Masculino" /> Masculino
+        <input type="radio" name="Sexo" value="Feminino" /> Feminino
+        <br><br>
+         Estado de origem
+        <br>
+        <input list="estado" name="estado" />
+        <datalist id="estado">
+        <option value="Espírito Santo (ES)">Espírito Santo (ES)</option>
+        <option value="Minas Gerais (MG)">Minas Gerais (MG)</option>
+        <option value="Rio de Janeiro (RJ)">Rio de Janeiro (RJ)</option>
+        <option value=" São Paulo (SP)"> São Paulo (SP)</option>
+        </datalist>
+        <br><br>E-mail
+        <input type="email" name="email" placeholder="E-mail" />
+        <br><br>Telefone
+        <input type="tel" name="tel" placeholder="(xx) x xxxx-xxxx" />
+        <br><br>Idade
+        <input type="number" name="idade" placeholder="Idade" />
+        <br><br>LinkedIn
+        <input type="url" name="linkedin" placeholder="LinkedIn" />
+        <br><br>Senha
+        <input type="password" name="senha" placeholder="Entre com sua senha" />
+        <br><br><br>
+        Marque a melhor opção de horário para contato:
+        <br><br>
+        <input type="checkbox" name="turno para contato" value="1" /> Manhã<br>
+        <br>
+        <input type="checkbox" name="turno para contato" value="1" /> Tarde<br>
+        <br>
+        <input type="checkbox" name="turno para contato" value="1" /> Noite<br><br>
+        <br><br>
+        Indique o nível de satisfação<br><br>
+        <input type="range" name="urgencia" min="0" max="100" step="10" />
+        <br>
+        <p>1 2 3 4 5 6 7 8 9 10</p><br>
+        Deixe um comentário/solicitação/reclamação/sugestão.<br><br>
+        <textarea cols=80 rows=10></textarea>
+<br>
+        <button type="button">Outra ação</button>
+        <button type="reset">Limpar campos</button>
+        <button type="submit">Enviar</button>    
+    </form>
+    <li><a href="index.html">Início</a></li>
+</body>
+
+</html>
