@@ -19,14 +19,16 @@ background: #fff;
 
 h1, h2, h3, h4, h5, h6 { color: #036; }
 .topo_header  {
-  height: 150px;
+  height: 180px;
   background: linear-gradient(to left, rgb(65, 3, 252),rgb(3, 3, 72));
-padding: 5px 20px;
+  border-radius: 0 0 30px 30px;
+
 }
 
 .topo_header h1  {
 font-size: 20px;
 margin: 4px 0 2px 0;
+padding-right: 20px;
 text-align: right;
 }
 
@@ -38,7 +40,8 @@ text-decoration: none;
 
 .topo_header h2 {
 font-size: 15px;
-margin: 2px 0 4px 0;
+margin-top: 5;
+padding-right:20px;
 text-align: right;
 color: #fff;
 }
@@ -51,7 +54,7 @@ padding-right:20px;
 
 .auxiliar {
 width: 220px;
-float: left;
+float: center;
 padding-left: 15px;
 }
 
@@ -62,6 +65,7 @@ background: linear-gradient(to left, rgb(65, 3, 252),rgb(3, 3, 72));
 color: #fff;
 padding: 5px 0;
 text-align: center;	
+border-radius: 30px 30px 0 0;
 }
 
 /* Navegação */
@@ -77,15 +81,18 @@ padding:100;
 
 .auxiliar_navegacao a {
   background: linear-gradient(to left, rgb(65, 3, 252),rgb(3, 3, 72));
+  text-align: center;
 color: #fff;
 display: block;
 margin-bottom: 1px;
 line-height: 2;
 padding-left: 10px;
 text-transform: capitalize;
+border-radius: 5%;
 }
 .auxiliar_navegacao a:hover {
-background: #036;
+  background: linear-gradient(to left, rgb(3, 3, 72), rgb(65, 3, 252));
+border-radius: 5%;
 }
 
 /* Parceiros links de texto */
@@ -105,16 +112,21 @@ color: #333;
 display: block;
 }
 
-.foto {
-  float: left;
-  width: 120px; 
-  height: 140px; 
-  padding-right: 20px;
+.foto { 
+float:left;
+width: 130px;
+height: 170px;
+border-radius: 10%;
+overflow: hidden;
+position:static;
+margin-top: 5px;
+margin-left:30px;
 }
 
 .logo {
   float: right;
-  width: 120px; 
-  height: 50px; 
+  width: 160px; 
+  height: 70px; 
+  margin-right:25px;
   
 }
