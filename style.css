@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+.principal {
+float: center;
+padding:25px;
+}
+
 h1, h2, h3, h4, h5, h6 { 
   color: #036; 
   line-height: 1; 
