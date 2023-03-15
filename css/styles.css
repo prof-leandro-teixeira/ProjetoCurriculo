@@ -1,0 +1,164 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/****************/
+/* 0. Variáveis */
+/* 1. Estilos Gerais
+/* 2. Menu
+/* 3. Header
+/* 4. Objetivo
+/* 5. formação
+/* 6. Experiência
+/* 7. Cursos
+/* 8. Contato
+/* 9. Footer
+/****************/
+
+
+/* 0. Variáveis*/
+:root {
+	--ff-primary: "Nunito", Helveltica, Arial, sans-serif;
+	--clr-green-dark: #977c48;
+	--clr-blue-dark: #04579a;
+	--clr-black: #000000;
+	--clr-white: #ffffff;
+}
+
+
+/* 1. Estilos gerais*/
+
+body {
+	background-color: rgb(255, 255, 255);
+	font-family: var(--ff-primary);
+}
+
+a,
+a:hover,
+a:active,
+a:link,
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+hr {
+	border: none;
+	background-color: #000000;
+	height: 5px;
+	width: 250px;
+	margin: auto;
+
+}
+
+p {
+	line-height: 21.82px;
+	padding: 0 10px;
+}
+
+.section_objetivo {
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 10px;
+}
+
+.logo-img {
+	max-width: 120px;
+	float: left;
+	flex-wrap: wrap;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	flex: 1 1 60px;
+}
+
+/* 2. Menu*/
+
+.menu-bg {
+	background-color: var(--clr-green-dark);
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 960px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+
+.menu__logo {
+	margin: 10px;
+}
+
+.nav__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nav__link {
+	padding: 20px 10px;
+}
+
+.intro {
+	font-weight: bold;
+	font-size: 3rem;
+	text-align: center;
+	margin: 0 auto;
+	padding: 25px 0 0;
+}
+
+.intro2 {
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: center;
+
+}
+
+/* 3. Header*/
+
+
+/* 4. Objetivo*/
+
+.objetivo {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.objetivo-c {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.objetivo-c__img {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.objetivo-c__texto {
+	flex: 6 1 160px;
+	font-size: 20px;
+}
+
+.objetivo-c__img {
+	flex: 1 1 20px;
+}
+
+h2 {
+	margin: 20px 20px 20px auto;
+}
+
+/* 5. formação*/
+
+/* 6. Experiência*/
+
+/* 7. Cursos*/
+
+/* 8. Contato*/
+
+/* 9. Footer*/
