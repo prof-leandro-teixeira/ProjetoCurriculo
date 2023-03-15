@@ -20,10 +20,6 @@
 /* 0. Variáveis*/
 :root {
 	--ff-primary: "Nunito", Helveltica, Arial, sans-serif;
-	--clr-green-dark: #000000;
-	--clr-blue-dark: #eba91c;
-	--clr-black: #000000;
-	--clr-white: #ffffff;
 }
 
 /* 1. Estilos gerais*/
@@ -91,7 +87,7 @@ img {
 /* 3. Header*/
 
 .menu-bg {
-	background-color: var(--clr-green-dark);
+	background-color: #000000;
 }
 
 .menu {
@@ -184,7 +180,7 @@ h2 {
 
 /* 9. Footer*/
 .footer {
-	background-color: var(--clr-green-dark);
+	background-color:  #000000;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: right;
@@ -192,7 +188,7 @@ h2 {
 }
 
 .footer__copyright {
-	color: rgb(255, 255, 255);
+	color:  #ffffff;
 	font-family: var(--ff-primary);
 	padding: 15px 15px 15px;
 	font-family: var(--ff-primary);
