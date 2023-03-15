@@ -10,6 +10,7 @@ h1, h2, h3, h4, p, a {
 }
 
 header{
+  display: flex;
   float: none;
   height: 180px;
   border-radius: 0 0 30px 30px;
