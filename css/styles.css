@@ -33,10 +33,11 @@ body {
 	font-family: var(--ff-primary);
 }
 
-details{
+details {
 	color: rgb(173, 1, 1);
 }
-p{
+
+p {
 	color: #000000;
 }
 
@@ -72,8 +73,8 @@ p {
 	text-align: justify;
 }
 
-.justifica{
-text-align: center;
+.justifica {
+	text-align: center;
 }
 
 .section__texto {
@@ -82,7 +83,7 @@ text-align: center;
 	margin-bottom: 0px;
 }
 
-.section__texto-sub{
+.section__texto-sub {
 	text-align: center;
 	font-size: 2vw;
 	color: #000000;
@@ -97,7 +98,7 @@ text-align: center;
 }
 
 img {
-	
+
 	display: flex;
 	max-width: 80%;
 	padding-left: auto;
@@ -121,15 +122,18 @@ img {
 
 .menu__logo {
 	margin: 10px;
-	
+	padding: 25px;
 }
 
 .nav__list {
-	display: flex;
-	flex-wrap: wrap;
+	float: left;
+	color: rgb(255, 255, 255);
 	text-align: center;
-	font-size: 2vw;
-	margin-bottom: 0px;
+	padding: 25px;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 25px;
+	border-radius: 4px;
 }
 
 .nav__link {
@@ -138,9 +142,10 @@ img {
 
 /* 4. texto*/
 
-.lista{
+.lista {
 	text-align: center;
-	color: #000000;
+	font-size: 10px;
+	margin-bottom: 0px;
 }
 
 .texto {
@@ -193,7 +198,7 @@ h2 {
 
 /* 9. Footer*/
 .footer {
-	background-color:  #000000;
+	background-color: #000000;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: right;
@@ -201,7 +206,7 @@ h2 {
 }
 
 .footer__copyright {
-	color:  #ffffff;
+	color: #ffffff;
 	font-family: var(--ff-primary);
 	font-size: 2vw;
 	line-height: normal;
