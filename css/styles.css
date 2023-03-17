@@ -78,7 +78,14 @@ text-align: center;
 
 .section__texto {
 	text-align: center;
-	font-size: 3rem;
+	font-size: 3vw;
+	margin-bottom: 0px;
+}
+
+.section__texto-sub{
+	text-align: center;
+	font-size: 2vw;
+	color: #000000;
 	margin-bottom: 0px;
 }
 
@@ -90,10 +97,10 @@ text-align: center;
 }
 
 img {
-	display: block;
-	max-width: 100%;
-	flex: 1 1 60px;
-	padding-left: 20px;
+	
+	display: flex;
+	max-width: 80%;
+	padding-left: auto;
 }
 
 /* 2. Menu*/
