@@ -33,14 +33,22 @@ body {
 	font-family: var(--ff-primary);
 }
 
+details{
+	color: rgb(173, 1, 1);
+}
+p{
+	color: #000000;
+}
+
 a,
 a:hover,
-a:active,
 a:link,
+a:active,
 a:visited {
 	text-decoration: none;
 	color: rgb(255, 255, 255);
 }
+
 
 .hr__cima {
 	border: none;
@@ -64,6 +72,10 @@ p {
 	text-align: justify;
 }
 
+.justifica{
+text-align: center;
+}
+
 .section__texto {
 	text-align: center;
 	font-size: 3rem;
@@ -71,9 +83,10 @@ p {
 }
 
 .logo-img {
-	max-width: 120px;
+	max-width: 140px;
 	float: left;
 	flex-wrap: wrap;
+	border: none;
 }
 
 img {
@@ -94,20 +107,21 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	max-width: 960px;
+	max-width: 960vw;
 	margin: 0 auto;
 	flex-wrap: wrap;
 }
 
 .menu__logo {
 	margin: 10px;
+	
 }
 
 .nav__list {
 	display: flex;
 	flex-wrap: wrap;
 	text-align: center;
-	font-size: 2rem;
+	font-size: 2vw;
 	margin-bottom: 0px;
 }
 
@@ -115,21 +129,12 @@ img {
 	padding: 20px 10px;
 }
 
-.intro {
-	font-weight: bold;
-	font-size: 5rem;
-	text-align: center;
-	margin: 0 auto;
-	padding: 25px 0 0;
-}
-
-.intro2 {
-	font-weight: bold;
-	font-size: 2rem;
-	text-align: center;
-}
-
 /* 4. texto*/
+
+.lista{
+	text-align: center;
+	color: #000000;
+}
 
 .texto {
 	max-width: 1200px;
@@ -160,6 +165,7 @@ h2 {
 	margin: 20px 20px 20px auto;
 }
 
+
 /* 5. formação*/
 /* 6. Experiência*/
 /* 7. Cursos*/
@@ -168,12 +174,12 @@ h2 {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	max-width: 960px;
+	max-width: auto;
 	margin: auto;
 	flex-wrap: wrap;
 	background-color: #000000;
 	font-family: var(--ff-primary);
-	font-size: 1.5rem;
+	font-size: 2vw;
 	padding: 0 10px;
 	line-height: 40px;
 }
@@ -190,8 +196,6 @@ h2 {
 .footer__copyright {
 	color:  #ffffff;
 	font-family: var(--ff-primary);
-	padding: 15px 15px 15px;
-	font-family: var(--ff-primary);
-	font-size: 1.5rem;
+	font-size: 2vw;
 	line-height: normal;
 }
