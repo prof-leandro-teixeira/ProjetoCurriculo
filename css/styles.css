@@ -100,13 +100,10 @@ h2 {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	max-width: auto;
-	margin: auto;
 	flex-wrap: wrap;
 	background-color: #000000;
 	font-family: var(--ff-primary);
 	font-size: 2vw;
-	padding: 0 10px;
 	line-height: 40px;
 }
 
@@ -114,7 +111,7 @@ h2 {
 	background-color: #000000;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: right;
+	justify-content: center;
 	padding: 25px 10px;
 }
 
