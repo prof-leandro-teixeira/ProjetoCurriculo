@@ -107,6 +107,37 @@ h2 {
 	line-height: 40px;
 }
 
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: #ffffff;
+}
+
+button {
+	background-color: #10531a;
+	/* cor de fundo do botão */
+	border: none;
+	/* remove a borda */
+	color: white;
+	/* cor do texto */
+	padding: 15px 32px;
+	/* espaçamento interno */
+	text-align: center;
+	/* alinhamento do texto */
+	text-decoration: none;
+	/* remove sublinhado */
+	display: inline-block;
+	/* exibe como bloco */
+	font-size: 16px;
+	/* tamanho da fonte */
+	margin: auto;
+	/* espaçamento externo */
+	cursor: pointer;
+	/* cursor de mão ao passar por cima */
+}
+
 .footer {
 	background-color: #000000;
 	display: flex;
