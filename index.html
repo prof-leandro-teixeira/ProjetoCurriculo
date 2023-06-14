@@ -1,23 +1,19 @@
 <!DOCTYPE html>
-<html id="voltar">
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorator="layout">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Leandro Teixeira Ferreira</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
-		integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
-		crossorigin="anonymous" />
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 	<header>
 		<section class="texto" id="apresenta">
-			<h2 class="section__texto">Leandro Teixeira Ferreira</h2><br>
-			<h3 class="section__texto-sub">Professor de Matemática e desenvolvedor backend</h3><br>
+			<h2 class="section__titulo">Leandro Teixeira Ferreira</h2><br>
+			<h3 class="section__titulo-sub">Professor de Matemática e desenvolvedor backend</h3><br>
 
 			<section class="button">
 				<div class="button">
@@ -30,18 +26,21 @@
 			</div>
 		</section>
 		<br>
-		<section class="redes__sociais">
-			<div class="rede__social">
-				<p></p>
-				<li><a href="#objetivo" class="nav__link">OBJETIVO</a></li>
-				<li><a href="#formação" class="nav__link">FORMAÇÃO</a></li>
-				<li><a href="#experiência" class="nav__link">EXPERIÊNCIA</a></li>
-				<li><a href="#cursos" class="nav__link">CURSOS</a></li>
-				<li><a href="#cursos" class="nav__link">TREINAMENTOS</a></li>
-				<li><a href="#redes" class="nav__link">CONTATOS</a></li>
-				<p></p>
-				<br><br>
-			</div>
+
+		<section class="redes__sociais" id="redes">
+
+			<div class="section__texto-redesocial">
+				<div class="rede__social">
+					<p></p>
+					<li><a href="#objetivo" class="nav__link">OBJETIVO</a></li>
+					<li><a href="#formação" class="nav__link">FORMAÇÃO</a></li>
+					<li><a href="#experiência" class="nav__link">EXPERIÊNCIA</a></li>
+					<li><a href="#cursos" class="nav__link">CURSOS</a></li>
+					<li><a href="#cursos" class="nav__link">TREINAMENTOS</a></li>
+					<li><a href="#redes" class="nav__link">CONTATOS</a></li>
+					<p></p>
+					<br><br>
+				</div>
 		</section>
 		<br>
 	</header><br>
@@ -51,13 +50,12 @@
 		<hr class="hr__abaixo">
 		<div class="texto-c">
 			<div class="section__texto-sub">
-				<p>Atuar como desenvolvedor proporcionando uma abordagem lógica e objetiva em processos de negócios.
-					Além de atuar como professor de Matemática, minha experiência como Analista de Sistemas com ERP SAP
-					me proporcionou adquirir softskills para trabalho em equipe onde é necessário empenho por
-					resultados.
+				<p>Utilizar minha experiência em sistemas ERP, formação em Matemática e conhecimento em linguagens de
+					programação para contribuir em uma empresa de tecnologia. Busco uma posição que me permita otimizar
+					processos e desenvolver soluções dentro de um ambiente colaborativo que esteja atento às tendências
+					tecnológicas.
 				</p>
 			</div>
-
 		</div>
 	</section>
 	<br>
@@ -77,84 +75,58 @@
 	</section>
 	<br>
 
-	<section class="texto" id="experiência">
+	<section class="texto">
 		<h2 class="section__texto">Experiência Profissional</h2>
 		<hr class="hr__abaixo">
 		<div class="texto-c">
 			<div class="section__texto-sub">
 				<p>PROFESSOR AUTÔNOMO | 2009 – ATUAL<br>
 
-				<p>Atuo como professor particular lecionando Matemática (Álgebra, Cálculo Diferencial e Integral) e
-					Física
-					(Mecânica e Eletricidade). Nas aulas de Matemática faço constante utilização de softwares
-					acadêmicos o
-					qual
-					destaco o Geogebra para demonstrações de gráficos de funções. Nas aulas de Física recorro ao
-					Arduino
-					(placa
-					de prototipagem eletrônica) com a linguagem de programação C fazendo integração de circuitos e
-					componentes
-					elétricos muito utilizado em automação residencial.</p>
-				<br><br>
+				<p>Atuo como professor particular lecionando Matemática (Álgebra, Cálculo Diferencial e Integral) e Física (Mecânica e Eletricidade). Nas aulas de Matemática faço constante utilização de softwares acadêmicos o qual destaco o Geogebra para demonstrações de gráficos de funções. Nas aulas de Física recorro ao Arduino (placa de prototipagem eletrônica) com a linguagem de programação C fazendo integração de circuitos e componentes elétricos muito utilizados em automação residencial.</p>
+
 
 				<p>APRENDER EM CASA | 2018 – 2022 (Professor de Matemática)<br>
 
 				<p>
-					Atuei como professor particular de Matemática e Física para ensino fundamental e méDIGITAL INOVATION
-					ONE. Adquiri
-					experiência
-					de trabalho com alunos com déficit de atenção e síndrome de Down.</p>
-				<br><br>
+					Atuei como professor particular de Matemática e Física para Ensino Fundamental e Médio atendendo alunos com TDAH.</p>
+
 
 				<p>CTIS TECNOLOGIA | 2006 – 2013 (Analista SAP MM/SRM/FI/CO)<br>
 
 				<p>
 					Atuei no suporte à configuração de Dados Mestres, Gestão de Materiais (estoque, movimentações,
-					inventário e
-					transferências entre Centros), Contratos de Materiais e Serviços. Configurações de impostos para
-					o
-					cálculo
-					em Pedidos, Folha de Serviços (FRS) e Fatura (MIRO) em Nota Fiscal e lista MRP (Material
-					Requirement
-					Planning). Medição de serviços envolvendo todo o processo desde a necessidade de aquisição de
-					bens ou
-					serviços até a avaliação final de fornecedores. Participei do processo de implantação de
-					Precificação e
-					Nota
-					Fiscal Eletrônica (NF-e). Em 2012 a empresa recebeu o prêmio HDI.</p>
-				<br><br>
+					inventário e transferências entre Centros), Contratos de Materiais e Serviços. Configurações de
+					impostos para o cálculo em Pedidos, Folha de Serviços (FRS) e Fatura (MIRO) em Nota Fiscal e lista
+					MRP (Material Requirement Planning). Medição de serviços envolvendo todo o processo desde a
+					necessidade de aquisição de bens ou serviços até a avaliação final de fornecedores. Participei do
+					processo de implantação de Precificação e Nota Fiscal Eletrônica (NF-e). Em 2012 a empresa recebeu o
+					prêmio HDI.</p>
+
 
 				<p>SPASSU INFORMÁTICA | 2003 – 2006 (Analista de Sistemas)<br>
 
 				<p>
-					Atuei no atendimento de primeiro e segundo nível a usuários executando suporte presencial e
-					remoto a
-					hardware
-					e software do ambiente Petrobras, Bacia de Campos - RJ. Atuei em áreas de maior criticidade,
-					incluindo
-					atendimento à Gerência Geral da unidade. Colaborei com treinamento de mais de100 analistas.</p>
-				<br><br>
+					Atuei no atendimento de primeiro e segundo nível a usuários executando suporte presencial e remoto a
+					hardware e software do ambiente Petrobras, Bacia de Campos - RJ. Atuei em áreas de maior
+					criticidade, incluindo atendimento à Gerência Geral da unidade. Colaborei com treinamento de mais
+					de100 analistas.</p>
 
 				<p>UNIVERSIDADE ESTÁCIO DE SÁ | 2002 – 2003 (Técnico I de Laboratório)<br>
 
 
-				<p>
-					Atuei como suporte de informática auxiliando alunos e funcionários no desempenho de suas
-					funções,
-					pesquisas e
-					resolução de problemas com aplicativos e sistemas operacionais. Atuei como Administrador Windows
-					2000.
-					Fui
-					responsável pela implantação do sistema operacional Conectiva nas máquinas do laboratório de uso
-					dos
-					alunos
-					para trabalhos acadêmicos e atuei como monitor das disciplinas de Linux I e Linux II.</p>
+				<p> Atuei como suporte de informática auxiliando alunos e funcionários no desempenho de suas funções,
+					pesquisas e resolução de problemas com aplicativos e sistemas operacionais. Atuei como Administrador
+					Windows 2000 efetuando: Instalação e Configuração, Criação de Usuários, Gerenciamento de Grupos,
+					Active Directory, Gerenciamento com NTFS, Implementação de Polices e Gerenciamento Remoto. Fui
+					responsável pela implantação do sistema operacional Linux Conectiva nas máquinas do laboratório do
+					alunos das disciplinas de Linux I e Linux II, além de auxiliar o professor como monitor nas turmas
+					de sistemas operacionais com Linux.</p>
 
 			</div>
 		</div>
 	</section>
 
-	<section class="texto" id="cursos">
+	<section class="texto">
 		<h2 class="section__texto">Cursos</h2>
 		<hr class="hr__abaixo">
 
@@ -163,6 +135,7 @@
 				<br>(BIG DATA)<br>
 				- Big Data Fundamentos 3.0 – 12h - DATA SCIENCE ACADEMY<br>
 				<br>(CLOUD COMPUTING)<br>
+				- Computação em Nuvem | AWS Discovery Day 4h – Ka Solution<br>
 				- Getting Start with AWS Cloud Essentials 8h – AWS<br>
 				- Jornada DevOps de Elite 2023 – 10h – DEVOPS<br>
 				<br>(DJANGO)<br>
@@ -199,10 +172,9 @@
 	</section>
 	<br>
 
-
 	<section class="redes__sociais" id="redes">
 		<h2 class="section__texto">Contato e Redes Sociais</h2><br>
-		<div class="redes__sociais-c">
+		<div class="section__texto-redesocial">
 			<div class="rede__social">
 				<p></p>
 				<a href="https://www.linkedin.com/in/leandroteixeiradev/">LINKEDIN</a>
@@ -215,15 +187,16 @@
 				<a href="https://wa.me/c/553194060473">WHATSAPP</a>
 				<p></p>
 			</div>
-			<br><br>
+
 		</div>
 	</section>
 	<br>
 	<footer class="footer">
-
 		<p class="footer__copyright">
 			Leandro Teixeira Ferreira 2023</p>
 	</footer>
+	<script th:src="@{/webjars/jquery/3.6.0/jquery.min.js}"></script>
+	<script th:src="@{/webjars/bootstrap/5.1.0/js/bootstrap.bundle.min.js}"></script>
 </body>
 
 </html>
