@@ -53,6 +53,14 @@ p {
 	margin: 0 auto;
 }
 
+.section__button {
+	line-height:normal;
+	text-align: center;
+	font-size: 3vw;
+	margin-bottom: 0px;
+	display: inline-flexbox;
+}
+
 .section__titulo {
 	line-height:normal;
 	text-align: center;
@@ -135,40 +143,16 @@ h2 {
 	line-height: 40px;
 }
 
-.button {
+.section__button {
 	line-height:normal;
-	padding: 10px 20px;
-	border-radius: 5px;
-	color: #fff;
-	cursor: pointer;
-	max-width: 70%;
 	display: flex;
-	margin: 0 auto;
-}
-
-button {
-	line-height:normal;
-	background-color: #10531a;
-	/* cor de fundo do botão */
-	border: none;
-	/* remove a borda */
-	color: white;
-	/* cor do texto */
-	padding: 15px 32px;
-	/* espaçamento interno */
-	text-align: center;
-	/* alinhamento do texto */
-	text-decoration: none;
-	/* remove sublinhado */
-	display: inline-block;
-	/* exibe como bloco */
-	font-size: 16px;
-	/* tamanho da fonte */
-	margin: auto;
-	/* espaçamento externo */
-	cursor: pointer;
-	/* cursor de mão ao passar por cima */
-	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: #21c400;
+	font-family: var(--ff-primary);
+	font-size: 2vw;
+	line-height: 40px;
 }
 
 .footer {
