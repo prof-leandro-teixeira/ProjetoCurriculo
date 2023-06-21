@@ -144,15 +144,16 @@ h2 {
 }
 
 .section__button {
-	line-height:normal;
+	line-height:0%;
+	line-height: 40px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	background-color: #21c400;
+	background-color: #105701;
 	font-family: var(--ff-primary);
 	font-size: 2vw;
-	line-height: 40px;
+	
 }
 
 .footer {
