@@ -14,7 +14,7 @@ html {
 
 body {
 	background-color: rgb(255, 255, 255);
-	font-family: var(--ff-primary);
+	font-family: var(--ff-primary);	
 }
 
 p {
@@ -33,13 +33,13 @@ a:visited {
 .hr__abaixo {
 	border: none;
 	background-color: #000000;
-	height: 2px;
+	height: 0px;
 	width: 200px;
 }
 
 p {
 	line-height:normal;
-	padding: 0 10px;
+	padding: 0 5px;
 	text-align: justify;
 }
 
@@ -49,14 +49,14 @@ p {
 
 .texto {
 	line-height:normal;
-	max-width: 1200px;
+	
 	margin: 0 auto;
 }
 
 .section__button {
 	line-height:normal;
 	text-align: center;
-	font-size: 3vw;
+	font-size: 1.5vw;
 	margin-bottom: 0px;
 	display: inline-flexbox;
 }
@@ -64,7 +64,7 @@ p {
 .section__titulo {
 	line-height:normal;
 	text-align: center;
-	font-size: 3vw;
+	font-size: 3vw;	
 	margin-bottom: 0px;
 	display: inline-flexbox;
 }
@@ -72,7 +72,7 @@ p {
 .section__titulo-sub {
 	line-height:normal;
 	text-align: center;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	margin-bottom: 0px;
 	display: inline-flexbox;
 }
@@ -80,14 +80,14 @@ p {
 .section__texto {
 	line-height:normal;
 	text-align: center;
-	font-size: 3vw;
+	font-size: 1.5vw;
 	margin-bottom: 0px;
 }
 
 .section__texto-sub {
 	line-height:normal;
 	text-align: center;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	margin-bottom: 0px;
 }
 
@@ -109,7 +109,7 @@ p {
 .lista {
 	line-height:normal;
 	text-align: center;
-	font-size: 5px;
+	font-size: 1.5vw;
 	margin-bottom: 0px;
 }
 
@@ -127,8 +127,8 @@ h2 {
 	flex-wrap: wrap;
 	background-color: #000000;
 	font-family: var(--ff-primary);
-	font-size: 2vw;
-	line-height: 40px;
+	font-size: 1.5vw;
+	line-height: 30px;
 }
 
 .section__menu {
@@ -139,20 +139,20 @@ h2 {
 	flex-wrap: wrap;
 	background-color: #000000;
 	font-family: var(--ff-primary);
-	font-size: 2vw;
-	line-height: 40px;
+	font-size: 1.5vw;
+	line-height: 30px;
 }
 
 .section__button {
 	line-height:0%;
-	line-height: 40px;
+	line-height: 30px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
 	background-color: #105701;
 	font-family: var(--ff-primary);
-	font-size: 2vw;
+	font-size: 1.5vw;
 	
 }
 
@@ -168,7 +168,7 @@ h2 {
 .footer__copyright {
 	color: #ffffff;
 	font-family: var(--ff-primary);
-	font-size: 2vw;
+	font-size: 1.5vw;
 	display: flex;
 	line-height: 3px;
 	
