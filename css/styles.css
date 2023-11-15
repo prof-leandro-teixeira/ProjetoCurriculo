@@ -56,7 +56,7 @@ p {
 .section__button {
 	line-height:normal;
 	text-align: center;
-	font-size: 1.5vw;
+	font-size: 2.5vw;
 	margin-bottom: 0px;
 	display: inline-flexbox;
 }
@@ -72,7 +72,7 @@ p {
 .section__titulo-sub {
 	line-height:normal;
 	text-align: center;
-	font-size: 1.5vw;
+	font-size: 2vw;
 	margin-bottom: 0px;
 	display: inline-flexbox;
 }
@@ -80,14 +80,14 @@ p {
 .section__texto {
 	line-height:normal;
 	text-align: center;
-	font-size: 1.5vw;
+	font-size: 2vw;
 	margin-bottom: 0px;
 }
 
 .section__texto-sub {
 	line-height:normal;
 	text-align: center;
-	font-size: 1.5vw;
+	font-size: 2vw;
 	margin-bottom: 0px;
 }
 
@@ -109,7 +109,7 @@ p {
 .lista {
 	line-height:normal;
 	text-align: center;
-	font-size: 1.5vw;
+	font-size: 2vw;
 	margin-bottom: 0px;
 }
 
@@ -127,7 +127,7 @@ h2 {
 	flex-wrap: wrap;
 	background-color: #000000;
 	font-family: var(--ff-primary);
-	font-size: 1.5vw;
+	font-size: 2vw;
 	line-height: 30px;
 }
 
@@ -139,7 +139,7 @@ h2 {
 	flex-wrap: wrap;
 	background-color: #000000;
 	font-family: var(--ff-primary);
-	font-size: 1.5vw;
+	font-size: 2vw;
 	line-height: 30px;
 }
 
@@ -152,7 +152,7 @@ h2 {
 	flex-wrap: wrap;
 	background-color: #105701;
 	font-family: var(--ff-primary);
-	font-size: 1.5vw;
+	font-size: 2vw;
 	
 }
 
