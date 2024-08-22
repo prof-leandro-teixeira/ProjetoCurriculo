@@ -15,3 +15,13 @@
     flex-wrap: wrap;
     background-color: #000;
 }
+
+.nav__link {
+    color: #000; /* Define a cor do texto como preta */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    font-weight: bold; /* Deixa o texto em negrito para maior destaque */
+}
+
+.nav__link:hover {
+    text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse sobre o link */
+}
