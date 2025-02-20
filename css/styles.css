@@ -1,4 +1,4 @@
-/* Reset de margin, padding e box-sizing para todos os elementos */
+/* Reset geral */
 * {
     margin: 0;
     padding: 0;
@@ -11,44 +11,45 @@ body {
     line-height: 1.6;
     background-color: #c9c9c9;
     color: #333;
-    padding-top: 10px; /* Espaçamento no topo */
+    padding-top: 10px;
 }
 
 /* Cabeçalho principal */
 header {
-    background-color: #000000;
-    color: #000000;
+    background-color: #000;
+    color: #000;
     padding: 5px;
     text-align: center;
 }
 
-/* Estilo do título principal */
 header h1 {
     margin-bottom: 10px;
 }
 
-/* Subtítulo */
 header h3 {
     font-size: 1.2rem;
     font-weight: normal;
-    color: #000000;
 }
 
-/* Estilo para o menu de contatos */
-.contatos ul {
-    display: flex; /* Exibe os itens lado a lado */
-    flex-wrap: wrap; /* Permite que os itens que não cabem em uma linha se movam para a linha seguinte */
-    justify-content: center; /* Centraliza os itens dentro do contêiner */
-    list-style-type: none; /* Remove os marcadores da lista */
-    padding: 0; /* Remove o padding */
-    margin: 0; /* Remove a margem */
+/* Estilos para menus */
+.contatos ul,
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.contatos li {
-    margin: 10px 15px; /* Espaçamento entre os itens */
+.contatos li,
+.menu li {
+    margin: 10px 15px;
+    list-style: none;
 }
 
-.contatos a {
+.contatos a,
+.menu a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -58,54 +59,18 @@ header h3 {
     transition: background-color 0.3s, border-color 0.3s;
 }
 
-.contatos a:hover {
-    background-color: #588f00;
-    border-color: #898a88;
-    color: #588f00;
-}
-
-/* Efeito hover para links */
-.contatos a:hover {
+.contatos a:hover,
+.menu a:hover {
     background-color: #f39c12;
     border-color: #f39c12;
     color: #fff;
 }
 
-/* Estilo para o menu */
-.menu ul {
-    display: flex; /* Exibe os itens lado a lado */
-    flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte, se necessário */
-    justify-content: center; /* Centraliza os itens dentro do contêiner */
-    list-style-type: none; /* Remove os marcadores da lista */
-    padding: 0; /* Remove o padding */
-    margin: 0; /* Remove a margem */
-}
-
-.menu li {
-    margin: 10px 20px; /* Adiciona espaço entre os itens do menu */
-}
-
-.menu a {
-    color: #fff; /* Cor do texto do link */
-    text-decoration: none; /* Remove o sublinhado dos links */
-    font-weight: bold; /* Deixa o texto em negrito */
-    padding: 8px 15px;
-    border: 1px solid transparent; /* Sem borda inicialmente */
-    border-radius: 5px; /* Bordas arredondadas */
-    transition: background-color 0.3s, border-color 0.3s;
-}
-
-.menu a:hover {
-    background-color: #f39c12; /* Cor de fundo ao passar o mouse */
-    border-color: #f39c12; /* Cor da borda ao passar o mouse */
-    color: #fff; /* Mantém o texto branco */
-}
-
-/* Seções principais do conteúdo */
+/* Seções principais */
 section {
     margin: 10px auto;
     width: 80%;
-    max-width: 1100px; /* Limita a largura máxima da seção */
+    max-width: 1100px;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
@@ -120,7 +85,6 @@ h2 {
     padding-bottom: 5px;
 }
 
-/* Parágrafos dentro das seções */
 section p {
     margin-bottom: 15px;
     font-size: 1rem;
@@ -128,7 +92,7 @@ section p {
 }
 
 /* Link para download do currículo */
-a.nav__link {
+.nav__link {
     color: #f39c12;
     font-size: 1.1rem;
     font-weight: bold;
@@ -140,7 +104,7 @@ a.nav__link {
     transition: background-color 0.3s, color 0.3s;
 }
 
-a.nav__link:hover {
+.nav__link:hover {
     background-color: #f39c12;
     color: #fff;
 }
@@ -156,12 +120,9 @@ footer {
 
 /* Estilos responsivos */
 @media (max-width: 768px) {
-    .menu {
-        flex-direction: column;
-        gap: 10px;
-    }
 
-    .contatos {
+    .menu ul,
+    .contatos ul {
         flex-direction: column;
         gap: 10px;
     }
